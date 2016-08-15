@@ -1,0 +1,8 @@
+CREATE OR REPLACE PROCEDURE Jerex_PROC
+AS
+    v_test      NUMBER;
+BEGIN
+    SELECT 1
+      INTO v_test
+      FROM DUAL;
+END;
